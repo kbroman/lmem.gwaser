@@ -48,7 +48,7 @@
 #' (Broman and Sen 2009).
 #'
 #'3) mq_g_missinggenotype_plot, this figure highlights missing marker scores for all
-#' individuals across the genome (equivalent to r/qtl: plot.missing)
+#' individuals across the genome (equivalent to r/qtl: plotMissing)
 #' (Broman and Sen 2009).
 #'
 #'4) mq_g_comparegenotypes_plot, this figure represents the pairwise number of alleles
@@ -56,7 +56,7 @@
 #' (Broman and Sen 2009).
 #'
 #'6) mq_g_cf_plot, this figure represents the pairwise recombination fraction
-#'among each pair of markers (equivalent to r/qtl: plot.rf).
+#'among each pair of markers (equivalent to r/qtl: plotRF).
 #'(Broman and Sen 2009).
 #'
 #'7) mq_g_identical_genotypes_plot, this figure is the histogram of the proportion of
@@ -128,7 +128,7 @@ mq.g.diagnostics <- function(crossobj, I.threshold = 0.1,
     # To plot missing genotypes
     mq_missinggenotype_plot <- function(crossobj) {
         par(mfrow = c(1, 1))
-        plot.missing(crossobj)
+        plotMissing(crossobj)
     }
 
     # To compare pairs of genotypes

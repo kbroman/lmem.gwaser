@@ -1,7 +1,7 @@
 Package: lmem.gwaser
 Type: Package
 Title: Linear Mixed Effects Models for Genome-Wide Association Studies
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Lucia", "Gutierrez", role = "aut",
              email = "gutierrezcha@wisc.edu"),
              person("Gaston", "Quero",role =c("aut","cre"),
@@ -32,4 +32,4 @@ RoxygenNote: 5.0.1
 NeedsCompilation: no
 Packaged: 2016-05-05 23:08:29 UTC; GQ
 Repository: CRAN
-Date/Publication: 2016-05-06 23:00:33
+Date/Publication: 2017-09-12 09:29:00
